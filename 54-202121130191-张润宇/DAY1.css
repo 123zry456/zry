@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-image: url() ;
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+/* 边栏导航 */
+nav {
+     background-image: url("页面.png");
+     background-size: cover;
+   background-repeat: repeat-x;
+    background-position: center;
+    border-radius: 30px;
+     margin: 0;
+    }
+/* 导航 */
+    nav ul {
+    margin-top: 15px;
+   padding: 10px 0px 10px 0px;
+    }
+/* 导航 */
+    nav ul li {
+    display: inline;
+   padding: 5px 30px 5px 30px;
+   color:black;
+  text-decoration: none;
+   font-weight: bold;
+    }
+/* 导航 */
+    nav ul li.selected {
+     font-weight: bold;
+    }
+    /* 页眉 */
+#header{
+    background-image: url(p1.png);
+    margin: 0px auto;
+    width: 1024px;
+    height: 249px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+/* 内容 ，包含column1，column2，column3*/
+.container{
+    width: 1200px;
+    margin: 30px auto;
+}
+.column1 .column1-1{
+    width: 600px;
+    height: 450px;
+    float: left;
+    
+}
+.column1 .column1-2{
+    width: 590px;
+    height: 450px;
+    float: right;
+    margin-left: 10px;
+}
+.container 
+.小标题{
+    margin-block-start: 0;
+}
+.column2 .column2-1{
+    width: 600px;
+    height: 450px;
+    float: left;
+}
+.column2 .column2-2{
+    width: 600px;
+    height: 450px;
+    float: right;
+    background-color: aliceblue;
+}
+.column3 .column3-1{
+    width: 600px;
+    height: 450px;
+    float: left;
+}
+.column3 .column3-2{
+    width: 590px;
+    height: 450px;
+    float: right;
+    margin-left: 10px;
+}
+.clear{
+    clear: both;
+}

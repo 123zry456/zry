@@ -1,0 +1,70 @@
+*{
+margin: 0px;
+padding: 0px;
+    }
+    
+    body {
+     background-image: url("Z4.jpg");
+ background-position: center;
+background-size: cover;
+font-family: serif;
+    
+    }
+    /* 页眉 */
+    #header{
+font-weight: normal;
+font-size: 18px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right;
+border-radius: 30px;
+background-image: url("Z2.jpg")
+    }
+    
+
+
+    /* 导航 */
+    nav {
+ background-image: url("Z2.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+   background-position: center;
+     border-radius: 30px;
+   margin: 0;
+     font-weight: bold;
+    }
+    nav ul {
+     margin-top: 15px;
+   list-style-type: none;
+  padding: 10px 0px 10px 0px;
+    }
+    nav ul li {
+   display: inline;
+    padding: 5px 30px 5px 30px;
+    }
+    nav ul li a:link, nav ul li a:visited { 
+   color:black;
+   text-decoration: none;
+     font-weight: bold;
+    }
+    nav ul li.selected {
+    font-weight: bold;
+    }
+
+
+
+    
+
+    
+
+
+
+
+/* 页脚 */
+footer{
+font-family: serif;
+ font-size: 20px;
+ text-align: center;
+ color: white;
+}
+

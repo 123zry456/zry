@@ -1,0 +1,98 @@
+/* 内容 */
+.container{
+    display: grid;
+    grid-template-rows:repeat(3, 300px) ;
+    grid-template-columns:repeat(5, 1fr) ;
+}
+/* 规定坐标 */
+section#gly1{
+    grid-area:1/1/4 ;
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly2{
+    grid-area:1/2/2 ;
+    background-image: url(gly1.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;   
+}
+section#gly3{
+    grid-area:1/3/2 ;
+    background-image: url(gly2.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly4{
+    grid-area:1/4/2;
+    background-image: url(gly3.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly5{
+    grid-area:1/5/2;
+    background-image: url(gly4.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly6{
+    grid-area:2/2/3 ;
+    background-image: url(gly5.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly7{
+    grid-area:2/3/3 ;
+    background-image: url(gly6.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly8{
+    grid-area:2/4/3 ;
+    background-image: url(gly7.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly9{
+    grid-area:2/5/3 ;
+    background-image: url(gly8.jpg);
+    background-size: cover;
+    background-position:center;
+
+    background-repeat: repeat-x;
+}
+section#gly10{
+    grid-area:3/2/4 ;
+    background-image: url(gly9.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly11{
+    grid-area:3/3/4 ;
+    background-image: url(gly10.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly12{
+    grid-area:3/4/4 ;
+    background-image: url(gly11.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
+section#gly13{
+    grid-area:3/5/4 ;
+    background-image: url(gly12.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: repeat-x;
+}
